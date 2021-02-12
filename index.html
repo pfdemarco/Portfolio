@@ -17,25 +17,60 @@
   <title>Patrick F DeMarco Portfolio</title>
   <style>
     
+    body {
+      background-color:black;
+     /* background-image: url("wilCat.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;*/
+    }
     .nav-wrapper{
-      background-color: blue;
+      background-color:#b0bec5;
       font-style: italic;
+      border-style: groove;
     }
-    #dropdown1{
-      color: aqua;
-    }
-
+   
     .backImg img{
       justify-content: center;
-      opacity: .6;
+      background-attachment: fixed;
+      opacity: .5;
       width :100%;
       height: 100%;
     }
 
     .dropdown-content li>a, .dropdown-content li>span {/*changes teh color of teh text in teh dropdown*/
-      color: blue;
+      color:black;
     }
 
+    .blurb, .name{
+      color:#b0bec5 ;
+    }
+
+    nav .brand-logo{
+      color:black;
+    }
+
+    nav ul a{
+      color: black;
+    }
+
+    .container{
+      color:#b0bec5 ;
+    }
+
+    #intro{
+      text-align: center;
+      padding: 25px;
+      font-size: xx-large;
+    }
+
+    #first{
+     
+    }
+
+    #second{
+     
+    }
   </style>
 </head>
 <body>
@@ -56,7 +91,7 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="https://github.com/pfdemarco?tab=repositories" class="brand-logo" target="_blank">Patrick DeMarco</a>
+        <a href="https://github.com/pfdemarco?tab=repositories" class="brand-logo center" target="_blank">Patrick DeMarco</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="https://pfdemarco.github.io/PatrickDeMarcoResume/Patrick F DeMarco Resume.docx">Resume</a></li>
           <li><a href="https://github.com/pfdemarco" target="_blank">GitHub</a></li>
@@ -68,20 +103,34 @@
     </nav>
   </div>
  
-  <div class="container">
-    <img class="backImg" src="wilCat.jpg">
-    <h1 class="name">Patrick DeMarco</h1>
-  
-    <p1 class="blurb">
-      Welcome to my portfolio
-  
-      I'm an aspiring web developer going through coding bootcamp.
-      I have experience with HTML, CSS, JavaScript, jQuery, Nodejs & DOM.
-      I have included projects for you to view that showcase my knowledge with these tools.
-    </p1>
 
+  <div class="container">
+    <div class="row">
+      <div class="col s12" id="intro">Welcome to my portfolio</div>
+      <div class="col s6" id="first">Experienced with HTML, CSS, JavaScript, jQuery, Nodejs & the DOM.<BR></div>
+      <div class="col s6" id="second">Included are projects for you to view that showcase my knowledge of these tools.<BR></div>
+    </div>
   </div>
-  
+
+   
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--img class="backImg" src="wilCat.jpg"-->
+    <!--h1 class="name"><b>Patrick DeMarco</b></h1-->
+    
