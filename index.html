@@ -69,12 +69,26 @@
     }
 
     .card{
-      justify-content: center;      
+    
+      width: 400px;    
+      padding :5px;
+    }
+    
+    #colcardstuff{
+      
     }
 
-    .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-      color: black;
+    #rowcard{
+      display: grid;
+      justify-content: center;
     }
+    /*.card-image, .card-content, .card-reveal{
+      
+    }*/
+    
+    /*.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+      color: black;
+    }*/
   </style>
 </head>
 <body>
@@ -113,28 +127,40 @@
   <div class="container">
     <div class="row">
       <div class="col s12" id="intro">Patrick DeMarco</div>
-      <div class="col s6" id="first">Experienced with HTML, CSS, JavaScript, jQuery, Nodejs & the DOM.<BR></div>
-      <div class="col s6" id="second">Included are projects for you to view that showcase my knowledge of these tools.<BR></div>
     </div>
   </div>
 
-
-  <div class="row center-align" >
-    <div class="col s12 m7">
-      <div class="card small">
-        <div class="card-image">
-          <img src="outdoor.jpg">
-          <span class="card-title">Patrick DeMarco</span>
+  <div class="row" id="rowcard">
+    <div class="col s12" id="colcardstuff">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="outdoor.jpg">
         </div>
         <div class="card-content">
-          <p>Email: pfdemarco@hotmail.com<BR>Phone: 603-856-6461</p>
+          <span class="card-title activator grey-text text-darken-4">Hello, I am Patrick DeMarco.<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://pfdemarco.github.io/random-meal-generator/index.html" target="_blank">Date Night</a></p>
+          <p><a href="https://pfdemarco.github.io/Weather/index.html" target="_blank">Weather App</a></p>
+          <p><a href="https://pfdemarco.github.io/Scheduler/Planner/index.html" target="_blank">Scheduler</a></p>
+          <p><a href="https://pfdemarco.github.io/PatrickDeMarcoResume/Patrick F DeMarco Resume.docx">Resume</a></p>
+          <p><a href="https://github.com/pfdemarco" target="_blank">GitHub</a></p>
+          <p><a href="https://www.linkedin.com/in/patrick-demarco/" target="_blank">Linkedin</a></p>
         </div>
-        <div class="card-action">
-          <a href="https://pfdemarco.github.io/random-meal-generator/index.html" target="_blank">My GitHub</a>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Patrick DeMarco<i class="material-icons right">close</i></span>
+          <p>Hello,<BR>
+            I am Patrick DeMarco<BR>
+            Experienced with HTML, CSS, JavaScript, jQuery, Nodejs & the DOM.<BR>
+            Included are projects for you to view that showcase my knowledge of these tools.<BR>
+            Feel free to contact me <BR>
+            Email: pfdemarco@hotmail.com<BR>
+            Phone: 603-856-6461
+          </p>
         </div>
       </div>
     </div>
   </div>
+  
+  
 
 </body>
 </html>
@@ -148,7 +174,22 @@
 
 
 
-
+<!--div class="row center-align" >
+    <div class="col s12 m7">
+      <div class="card medium">
+        <div class="card-image">
+          <img src="outdoor.jpg">
+          <span class="card-title">Patrick DeMarco</span>
+        </div>
+        <div class="card-content">
+          <p>Email: pfdemarco@hotmail.com<BR>Phone: 603-856-6461</p>
+        </div>
+        <div class="card-action">
+          <a href="https://pfdemarco.github.io/random-meal-generator/index.html" target="_blank">My GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div-->
 
 
 
