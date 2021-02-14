@@ -13,7 +13,7 @@ Went simple balck white and easy click on stuff and it takes you to my resume so
 
 * Submit an updated LinkedIn profile
 
-![proj1b]("PFDPortfolio2.gif")
+<p><img src="PFDPortofilo2.gif"width="600"/></p>
 
 
 App
