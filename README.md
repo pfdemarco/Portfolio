@@ -13,7 +13,10 @@ Went simple balck white and easy click on stuff and it takes you to my resume so
 
 * Submit an updated LinkedIn profile
 
+App view
 
+
+![Proj1](PFDPortfolio2.gif)
 
 App
 
